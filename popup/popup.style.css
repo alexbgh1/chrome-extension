@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  width: 160px;
+}
+
+.container {
+  width: 100%;
+  word-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+}
+
+.red {
+  background-color: red;
+}
