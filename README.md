@@ -1,6 +1,6 @@
 # Chrome extension
 
-This is a Chrome extension that enables you to save your currently opened tabs as bookmarks.
+This is a Chrome extension that enables you to save your currently opened tabs as bookmarks, or do a cleanup by closing all other tabs except for the current tab.
 
 ## Use case #1
 

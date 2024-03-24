@@ -8,9 +8,32 @@
   </head>
   <body>
     <div class="container">
-      <button id="save-open-tabs">Save Open Tabs</button>
-      <button id="close-all-other-tabs">Close All Other Tabs</button>
-      <div id="result"></div>
+      <table>
+        <thead>
+          <tr>
+            <th>Action</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="tab-list">
+          <!-- Open Tabs & Status -->
+          <tr>
+            <td>
+              <button id="save-open-tabs">Save Open Tabs</button>
+            </td>
+
+            <td id="status-save-open-tabs" class="status"></td>
+          </tr>
+          <!-- Close Tabs & Status -->
+          <tr>
+            <td>
+              <button id="close-all-other-tabs">Close Other Tabs</button>
+            </td>
+
+            <td id="status-close-all-other-tabs" class="status"></td>
+          </tr>
+        </tbody>
+      </table>
       <script src="popup/popup.js" type="module"></script>
     </div>
   </body>
