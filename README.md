@@ -33,3 +33,14 @@ You have 10 tabs opened in your browser, you are probably doing some research, b
 1. Click on the extension icon.
 2. Click on the `Close All Other Tabs` button.
 3. Done! All other tabs are closed except for the current tab.
+
+| Action                                           |                              Status                               |
+| ------------------------------------------------ | :---------------------------------------------------------------: |
+| <p style="cursor:pointer">[Save Open Tabs]</p>   | <img src="https://api-colores.alexbgh.cl/api/16/888888?text=+" /> |
+| <p style="cursor:pointer">[Close Other Tabs]</p> | <img src="https://api-colores.alexbgh.cl/api/16/888888?text=+" /> |
+
+### Status
+
+- <img src="https://api-colores.alexbgh.cl/api/8/888888?text=+" /> **Inactive:** No action has been taken
+- <img src="https://api-colores.alexbgh.cl/api/8/00FF00?text=+" /> **Suceess:** Everything went well
+- <img src="https://api-colores.alexbgh.cl/api/8/FF0000?text=+" /> **Error:** Something went wrong
